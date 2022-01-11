@@ -1,0 +1,30 @@
+@import "../node_modules/bootstrap/scss/_functions";
+$custom-theme-display : (
+  7 : 6rem,
+  8 : 11rem
+);
+@import "../node_modules/bootstrap/scss/_variables";
+
+$display-font-sizes : map-merge($custom-theme-display, $display-font-sizes);
+.borders-resposive {
+    border-left: 2px solid #a3a3a3;
+    height: 14px;
+    margin-top: 18px;
+}
+
+#banner-bg {
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.568), rgba(0, 0, 0, 0.568)), url("/images/pexels-faizur-rehman-10050661-1.jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 90vh;
+}
+
+
+@media (max-width: 990px) {
+    .borders-resposive {
+        border-left: none;
+    }
+  }
+
+  
