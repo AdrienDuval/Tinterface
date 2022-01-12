@@ -41,6 +41,11 @@ span#underline::after {
           transform: translateX(-43%);
 }
 
+a:active {
+  color: #000;
+  font-weight: 800;
+}
+
 #recently-worked {
   background-image: url("/images/Frame-3235.png");
   background-size: cover;
