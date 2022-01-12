@@ -14,21 +14,21 @@ $display-font-sizes: map-merge($custom-theme-display, $display-font-sizes);
 
 #banner-bg {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.568), rgba(0, 0, 0, 0.568)),
-    url("/images/pexels-faizur-rehman-10050661-1.jpg");
+    url("images/pexels-faizur-rehman-10050661-1.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 90vh;
 }
 #image-sine {
-    background-image: url(/images/Frame-3235.png);
+    background-image: url(images/Frame-3235.png);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         width: 45%;
 }
 #image-xenia {
-    background-image: url(/images/Frame-3235.png);
+    background-image: url(images/Frame-3235.png);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -46,7 +46,7 @@ span#underline::after {
 }
 
 #recently-worked {
-  background-image: url("/images/Frame-3235.png");
+  background-image: url("images/Frame-3235.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

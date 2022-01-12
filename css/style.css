@@ -5,8 +5,8 @@
 }
 
 #banner-bg {
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.568)), to(rgba(0, 0, 0, 0.568))), url("/images/pexels-faizur-rehman-10050661-1.jpg");
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.568), rgba(0, 0, 0, 0.568)), url("/images/pexels-faizur-rehman-10050661-1.jpg");
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.568)), to(rgba(0, 0, 0, 0.568))), url("images/pexels-faizur-rehman-10050661-1.jpg");
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.568), rgba(0, 0, 0, 0.568)), url("images/pexels-faizur-rehman-10050661-1.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -14,7 +14,7 @@
 }
 
 #image-sine {
-  background-image: url(/images/Frame-3235.png);
+  background-image: url(images/Frame-3235.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -22,7 +22,7 @@
 }
 
 #image-xenia {
-  background-image: url(/images/Frame-3235.png);
+  background-image: url(images/Frame-3235.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -41,13 +41,8 @@ span#underline::after {
           transform: translateX(-43%);
 }
 
-a:active {
-  color: #000;
-  font-weight: 800;
-}
-
 #recently-worked {
-  background-image: url("/images/Frame-3235.png");
+  background-image: url("images/Frame-3235.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
