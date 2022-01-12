@@ -1,88 +1,111 @@
 @import "../node_modules/bootstrap/scss/_functions";
-$custom-theme-display : (
-  7 : 6rem,
-  8 : 11rem
+$custom-theme-display: (
+  7: 6rem,
+  8: 11rem,
 );
 @import "../node_modules/bootstrap/scss/_variables";
 
-$display-font-sizes : map-merge($custom-theme-display, $display-font-sizes);
+$display-font-sizes: map-merge($custom-theme-display, $display-font-sizes);
 .borders-resposive {
-    border-left: 2px solid #a3a3a3;
-    height: 14px;
-    margin-top: 18px;
+  border-left: 2px solid #a3a3a3;
+  height: 14px;
+  margin-top: 18px;
 }
 
 #banner-bg {
-    background:linear-gradient(0deg, rgba(0, 0, 0, 0.568), rgba(0, 0, 0, 0.568)), url("/images/pexels-faizur-rehman-10050661-1.jpg");
-    background-size:cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height: 90vh;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.568), rgba(0, 0, 0, 0.568)),
+    url("/images/pexels-faizur-rehman-10050661-1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 90vh;
+}
+#image-sine {
+    background-image: url(/images/Frame-3235.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 45%;
+}
+#image-xenia {
+    background-image: url(/images/Frame-3235.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 37vh;
+        width: 45%;
+}
+span#underline::after {
+  content: "";
+  position: absolute;
+  height: 6px;
+  width: 250px;
+  background-color: #6d6d6d;
+  left: 43%;
+  transform: translateX(-43%);
 }
 
 #recently-worked {
-    background-image: url("/images/Frame-3235.png");
-    background-size:cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    object-fit: cover;
-    min-height: 88vh;
+  background-image: url("/images/Frame-3235.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  min-height: 88vh;
 }
 
 .ribbon {
-    width: 150px;
-    height: 150px;
-    overflow: hidden;
-    position: absolute;
-  }
-  .ribbon::before,
-  .ribbon::after {
-    position: absolute;
-    z-index: 1;
-    content: '';
-    display: block;
-    border: 5px solid #2980b9;
-  }
-  .ribbon span {
-    position: absolute;
-    display: block;
-    width: 225px;
-    padding: 15px 0;
-    background-color: #3498db;
-    box-shadow: 0 5px 10px rgba(0,0,0,.1);
-    color: #fff;
-    font: 700 18px/1 'Lato', sans-serif;
-    text-shadow: 0 1px 1px rgba(0,0,0,.2);
-    text-transform: uppercase;
-    text-align: center;
-  }
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  position: absolute;
+}
+.ribbon::before,
+.ribbon::after {
+  position: absolute;
+  z-index: 1;
+  content: "";
+  display: block;
+  border: 5px solid #2980b9;
+}
+.ribbon span {
+  position: absolute;
+  display: block;
+  width: 225px;
+  padding: 15px 0;
+  background-color: #3498db;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  font: 700 18px/1 "Lato", sans-serif;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+  text-align: center;
+}
 
 .ribbon-top-right {
-    top: 0px;
-    right: 200px;
-  }
-  .ribbon-top-right::before,
-  .ribbon-top-right::after {
-    border-top-color: transparent;
-    border-right-color: transparent;
-  }
-  .ribbon-top-right::before {
-    top: 0;
-    left: 0;
-  }
-  .ribbon-top-right::after {
-    bottom: 0;
-    right: 0;
-  }
-  .ribbon-top-right span {
-    left: -25px;
-    top: 30px;
-    transform: rotate(45deg);
-  }
+  top: 0px;
+  right: 200px;
+}
+.ribbon-top-right::before,
+.ribbon-top-right::after {
+  border-top-color: transparent;
+  border-right-color: transparent;
+}
+.ribbon-top-right::before {
+  top: 0;
+  left: 0;
+}
+.ribbon-top-right::after {
+  bottom: 0;
+  right: 0;
+}
+.ribbon-top-right span {
+  left: -25px;
+  top: 30px;
+  transform: rotate(45deg);
+}
 @media (max-width: 990px) {
-    .borders-resposive {
-        border-left: none;
-    }
+  .borders-resposive {
+    border-left: none;
   }
-
-  
+}

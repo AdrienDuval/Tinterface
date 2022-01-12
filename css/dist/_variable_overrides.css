@@ -12,6 +12,33 @@
   min-height: 90vh;
 }
 
+#image-sine {
+  background-image: url(/images/Frame-3235.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 45%;
+}
+
+#image-xenia {
+  background-image: url(/images/Frame-3235.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 37vh;
+  width: 45%;
+}
+
+span#underline::after {
+  content: "";
+  position: absolute;
+  height: 6px;
+  width: 250px;
+  background-color: #6d6d6d;
+  left: 43%;
+  transform: translateX(-43%);
+}
+
 #recently-worked {
   background-image: url("/images/Frame-3235.png");
   background-size: cover;
